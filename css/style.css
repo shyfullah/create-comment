@@ -21,13 +21,13 @@ a{
     padding: 20px 0;
 }
 
-.comment-container{
+#comment-container{
     margin: 40px 20px;
     border: 2px solid rgb(34, 202, 199);
     padding: 20px 15px;
 }
 
-.comment-container p{
+#comment-container p{
     background: rgb(204, 222, 41);
     color: rgb(106, 100, 100);
     margin: 20px 0;
@@ -48,4 +48,14 @@ a{
 .add-comment-box textarea{
     width: 1000px;
     height: 200px;
+}
+
+.add-comment-box button{
+    display: block;
+    padding: 10px 20px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: red;
+    font-weight: 800;
 }

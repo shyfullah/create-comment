@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ========== Main css =========== */
+
+.header{
+    text-align: center;
+    background-color: #ddd;
+    color: rgb(210, 104, 104);
+    padding: 20px 0;
+}
+
+.comment-container{
+    margin: 40px 20px;
+    border: 2px solid rgb(34, 202, 199);
+    padding: 20px 15px;
+}
+
+.comment-container p{
+    background: rgb(204, 222, 41);
+    color: rgb(106, 100, 100);
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.add-comment-box{
+    margin: 40px 20px;
+    border: 2px solid rgb(34, 202, 199);
+    padding: 20px 15px;
+}
+
+.add-comment-box h2{
+    color: red;
+}
+
+.add-comment-box textarea{
+    width: 1000px;
+    height: 200px;
+}
